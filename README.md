@@ -1,8 +1,8 @@
-CREATE schema library_management;
+```sql CREATE schema library_management;
 CREATE DATABASE library_management;
 
 DROP TABLE IF EXISTS branch;
-CREATE TABLE branch
+ CREATE TABLE branch
 (
             branch_id VARCHAR(10) PRIMARY KEY,
             manager_id VARCHAR(10),
@@ -91,7 +91,7 @@ SELECT *
 FROM return_status;
 SELECT*
 FROM members;
-
+///
 
 -- Task 1. Create a New Book Record -- "978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.')"
 
