@@ -1,7 +1,7 @@
 #### Library Management System using SQL Project
 ### -- Expolatory data analysis
 
-```sql CREATE schema library_management;
+```sql CREATE schema library_management;```
 **Drop and Create table if exists**
 
 CREATE DATABASE library_management;
